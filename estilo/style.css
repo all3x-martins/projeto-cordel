@@ -24,7 +24,7 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-image: linear-gradient(to left bottom, #000000, #111111, #1b1b1b, #252525, #303030);
     color: white;
     text-align: center;
 }
@@ -84,14 +84,14 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 
-section#img01{
+section#imagem01{
     background-image:url(../imagens/background001.jpg) ;
     background-position: right center;
     background-size: cover;
 
 }
 
-section#img02 {
+section#imagem02 {
     background-image:url(../imagens/background002.jpg);
     background-position: right center;
     background-size: cover;
@@ -104,3 +104,21 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+  @media only screen and (max-width: 1000px) {
+    section#img01 {
+       background-image: url(/imagens/background001-2.jpg);
+       background-position: left center;
+       background-size: cover;
+
+    }
+
+    section#img02 {
+        background-image: url(/imagens/background002-2.jpg);
+        background-position: right center;
+        background-size: cover;
+
+     }
+
+  }
+  
