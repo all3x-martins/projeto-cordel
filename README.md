@@ -17,7 +17,7 @@ Cada seção do cordel possui um fundo com o efeito parallax, proporcionando uma
 
 1. **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/cordel-moderno.git
+    git clone https://github.com/all3x-martins/projeto-cordel.git
     ```
 
 2. **Abra o arquivo `index.html` no seu navegador.**  
