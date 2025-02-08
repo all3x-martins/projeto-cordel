@@ -103,18 +103,18 @@ footer {
     padding: 5px;
 }
 
-  @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
     section#imagem01 {
-       background-image: url(/imagens/background001-2.jpg);
+       background-image: url(../imagens/background001-2.jpg);
        background-position: left center;
        background-size: cover;
     }
 
     section#imagem02 {
-        background-image: url(/imagens/background002-2.jpg);
+        background-image: url(../imagens/background002-2.jpg);
         background-position: right center;
         background-size: cover;
      }
 
-  }
+}
   
